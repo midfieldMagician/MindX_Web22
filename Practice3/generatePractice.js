@@ -1,4 +1,7 @@
 'use strict'
+//EM CHƯA LÀM ĐƯỢC KHÓ QUÁ HUHU 
+
+
 function search(input, target) {
   
   var leftIndex=0;
