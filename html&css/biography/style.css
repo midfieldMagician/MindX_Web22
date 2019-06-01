@@ -1,0 +1,68 @@
+/*navbar*/
+
+.navbar{
+    background-image: url("https://i.imgur.com/7k3CvAu.jpg");
+    text-align: center;
+    background-position: -235px;
+    background-position-y: -350px;
+   
+}
+nav>span{
+    color:orange;
+    width: 225px;
+    height: 748px;
+    line-height: 830px;
+    font-weight:700;
+    display:inline-block;
+    
+
+}
+nav>span:hover{
+    background-color: #9CD08F;
+    
+    cursor:pointer;
+    background-image: url("https://hinhdep.com.vn/wp-content/uploads/2012/10/Real-Madrid-logo.jpg");
+    background-position: 0px;
+    background-size: 230px;
+    
+}
+a:link,a:visited{
+    color:orange;
+    text-decoration: none;
+}
+span>a:hover{
+    color:black;
+}
+/* divs*/
+div>:not(.content){
+    height:400px;
+    text-align: center;
+    
+}
+hr { width:100%; height:1px; background: #fff }
+
+.content{
+    color:black;
+    text-align:center;
+    height:300px;
+}
+
+/*background cho từng div*/
+#hobbies{
+background-image: url("http://edusmart.vn/wp-content/uploads/2018/08/thpt-chuyen-amsterdam.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#ten{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/86/Hanoi_–_Amsterdam_High_School_01.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#tuoi{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a8/Hanoi_-_Amsterdam_High_School%2C_blocks_B-C_hall_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+footer{
+    background-color:green;
+}
