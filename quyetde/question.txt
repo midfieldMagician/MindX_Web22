@@ -1,0 +1,1 @@
+[{"id":0,"yes":0,"no":2,"content":"sadsa"},{"id":1,"yes":3,"no":1,"content":"Ai đẹp trai hơn mình?"},{"id":2,"yes":3,"no":1,"content":"Mình giỏi nhất?"}]

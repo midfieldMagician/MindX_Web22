@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>
+
+    </h2>
+    
+    <h4><span id="vote_number"></span> vote</h4>
+    <a href='/'><button>Xem câu hỏi khác</button></a>
+<script>
+    
+    const questionId=window.location.href.slice(31);
+    console.log(questionId);
+    
+$.ajax({
+    method:'GET',
+    url:`/api/getById/${questionId}`,
+    success:function(data){
+        
+        
+        $('h2').text(data.content);
+        $('#vote_number').text(data.yes+data.no);
+
+    },
+    error:function(err){
+        console.log(err);
+        
+    }
+
+})
+</script>
+</body>
+</html>
